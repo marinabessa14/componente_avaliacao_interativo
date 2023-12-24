@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Componente de Avaliação</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card_container">
+            <div class="secao_classi">
+                <div class="star_icon">
+                    <img src="img/icon-star.png" alt="star"/>
+                </div>
+                <h2 class="title">Como foi nosso atendimento ?</h2>
+                <p class="descric">
+                    Informe como foi nosso atendimento, sua avaliação é muito importante
+                    para nos ajudar e melhorar ainda mais nosso atendimento.
+                </p>
+                <div class="classificacoes">
+                    <span> 1 </span>
+                    <span> 2 </span>
+                    <span> 3 </span>
+                    <span> 4 </span>
+                    <span> 5 </span>
+                </div>
+                <button class="submit_btn">Enviar</button>
+            </div>
+            <div class="agradec_secao hidden">
+                <img src="img/illustration.svg" alt="obrigado"/>
+                <div class="chip">
+                    <p>Você selecionou <span id="classificacao"></span> de 5</p>
+                </div>
+                <h2 class="title">Muito Obrigado!</h2>
+                <p class="descricao">
+                    Agradecemos por sua avaliação. Se precisar de mais alguma ajuda
+                    entre em contato com os nossos atendentes!
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script> 
+</body>
+</html>
